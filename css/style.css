@@ -182,10 +182,14 @@ section {
   transform-origin: left;
 }
 
-.header-list-item-link:hover::after,
-.header-list-item-link:focus::after {
+.header-list-item-link.active::after {
   transform: scaleX(1);
 }
+
+/* .header-list-item-link:hover::after,
+.header-list-item-link:focus::after {
+  transform: scaleX(1);
+} */
 
 .address-list {
   display: flex;
@@ -276,7 +280,6 @@ section {
   width: 100%;
   height: 112px;
   background: var(--cloud);
-  padding: 24px 100px;
   margin-bottom: 8px;
 }
 
@@ -324,7 +327,7 @@ section {
 }
 
 .team-list-item-text {
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .team-social-icons-list {
