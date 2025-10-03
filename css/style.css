@@ -639,6 +639,7 @@ section {
 }
 .modal-close-btn:hover {
   background-color: #404bbf;
+  border: none;
 }
 
 .modal-close-btn:focus {
