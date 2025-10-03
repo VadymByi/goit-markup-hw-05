@@ -524,11 +524,31 @@
             </li>
           </ul>
         </div>
+        <div class="footer-subscribe-wrapper">
+          <p class="footer-subscribe-text">Subscribe</p>
+          <form class="footer-subscribe-form">
+            <label class="subscribe-form-label" for="user-email-main"
+              ><input
+                class="subscribe-form-input"
+                type="email"
+                id="user-email-main"
+                name="user-email-main"
+                placeholder="E-mail"
+            /></label>
+
+            <button class="subscribe-form-button" type="submit">
+              Subscribe
+              <svg class="subscribe-form-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-subscribe"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
 
     <!-- !Modal + backdrop-->
-    <div class="backdrop is-open">
+    <div class="backdrop is-open hidden">
       <div class="modal">
         <button class="modal-close-btn" type="button">
           <svg class="modal-close-btn-icon" width="8" height="8">

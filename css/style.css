@@ -1,3 +1,7 @@
+.hidden {
+  display: none !important;
+}
+
 :root {
   --iris: #4d5ae5;
   --ocean: #404bbf;
@@ -497,6 +501,9 @@ section {
   margin-right: 120px;
 }
 
+.footer-social-media {
+  margin-right: 80px;
+}
 .footer-social-media-title {
   font-weight: 500;
   color: var(--white);
@@ -521,6 +528,57 @@ section {
 .footer .team-social-icons-link:hover,
 .footer .team-social-icons-link:focus {
   background-color: var(--green);
+}
+
+/*  !Subscribe-block */
+
+.footer-subscribe-text {
+  font-weight: 500;
+  color: var(--white);
+  margin-bottom: 16px;
+}
+
+.footer-subscribe-form {
+  display: flex;
+  gap: 24px;
+}
+
+.subscribe-form-label {
+}
+
+.subscribe-form-input {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: var(--white);
+  width: 264px;
+  height: 40px;
+  border: 1px solid var(--white);
+  border-radius: 4px;
+  background-color: transparent;
+  padding-left: 16px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.subscribe-form-input::placeholder {
+  color: var(--white);
+}
+
+.subscribe-form-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 165px;
+  height: 40px;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+}
+
+.subscribe-form-icon {
+  margin-left: 16px;
 }
 
 /* !Modal + backdrop */
